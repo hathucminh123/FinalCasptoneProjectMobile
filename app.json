@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "JobSearchMobile",
+    "slug": "jobsearch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.trinhtam.JobSearchMobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "build": {
+        "hermes": false
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3dcedb84-1cb6-444b-a923-f8feaf23a009"
+      }
+    },
+    "owner": "hathucminh123"
+  }
+}
