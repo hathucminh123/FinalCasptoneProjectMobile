@@ -254,7 +254,7 @@ export default function CardJobs({ data, company, navigation }: props) {
           </View>
           <View style={styles.tax}>
             <Icon name="work" size={15} color="#808080" />
-            <Text style={styles.locationtext}>{data?.jobType.name} Years</Text>
+            <Text style={styles.locationtext}>{data?.jobType.name}</Text>
           </View>
 
           <View style={styles.tax}>
